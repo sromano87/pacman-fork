@@ -19,4 +19,3 @@ The project is based on *Maven*. Some useful instructions for developers follow.
 | To edit the source code | Edit a file, or more, in `src/main/java`.<br> The main file, *PacmanDF.java*, is located in the default package |
 | To compile the project | Type `mvn compile` |
 | To run the project | Type `mvn compile exec:java` |
-| To make a jar file | Type `mvn package`. <br> For the jar file, look at the `target` folder |
