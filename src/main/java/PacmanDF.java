@@ -132,7 +132,7 @@ public class PacmanDF extends JPanel {
 					enemy4.moveEnemy(pacmanCoords, map);
 
 				if (map.isEat(pacmanCoords.x, pacmanCoords.y)) {
-					currentScore--;
+					currentScore++;
 					currentBall++;
 					if (currentBall == 192) {
 						currentBall = 0;
@@ -518,7 +518,7 @@ public class PacmanDF extends JPanel {
 				isEndedLevel = false;
 				currentScore += currentLevel * 50;
 				currentLevel++;
-				currentLife = 3;
+				currentLife++;
 				flagStarEast = true;
 				flagStarWest = true;
 				ifEast = true;
@@ -559,6 +559,7 @@ public class PacmanDF extends JPanel {
 			} else {
 				endGame = true;
 				tmpLevel = currentLevel;
+//				currentLife = 3;
 				tmpScore = currentScore - 10;
 				flagStarEast = true;
 				flagStarWest = true;
