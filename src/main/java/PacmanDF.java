@@ -560,7 +560,9 @@ public class PacmanDF extends JPanel {
 				endGame = true;
 				tmpLevel = currentLevel;
 //				currentLife = 3;
-				tmpScore = currentScore - 10;
+				if(currentScore  > 0) {
+					tmpScore = currentScore - 10;					
+				}
 				flagStarEast = true;
 				flagStarWest = true;
 				ifEast = true;
