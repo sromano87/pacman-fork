@@ -518,7 +518,7 @@ public class PacmanDF extends JPanel {
 				isEndedLevel = false;
 				currentScore += currentLevel * 50;
 				currentLevel++;
-				currentLife++;
+				currentLife = 3;
 				flagStarEast = true;
 				flagStarWest = true;
 				ifEast = true;
