@@ -559,7 +559,7 @@ public class PacmanDF extends JPanel {
 			} else {
 				endGame = true;
 				tmpLevel = currentLevel;
-//				currentLife = 3;
+				currentLife = 3;
 				if(currentScore  > 0) {
 					tmpScore = currentScore - 10;					
 				}
